@@ -3,10 +3,9 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "package": "svelte-kit package",
+    "build": "cd sveltekit &&  npm run build",
+    "package": "cd sveltekit &&  svelte-kit package",
     "preview": "svelte-kit preview",
-    "postinstall": "svelte-kit sync",
     "test": "playwright test",
     "build:sanity": "cd sanity && npm run build",
     "start:sanity": "cd sanity && npm run start",
