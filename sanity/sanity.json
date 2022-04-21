@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "nikpro-cms"
-  },
   "api": {
     "projectId": "8ij2hypb",
     "dataset": "production"
+  },
+  "project": {
+    "name": "nikpro-cms"
   },
   "plugins": [
     "@sanity/base",
